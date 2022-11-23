@@ -16,7 +16,7 @@ func main() {
 	start := str[:index]
 	// 在'go'之后的部分 (偏移量应该为'go'的长度)
 	end := str[index+len("go"):]
-	// 将相关的部分进行写入
+	// 将相关的部分进行写入。(string替换得通过先转换成 []byte或[]rune 再转换回 string 完成)
 	var result bytes.Buffer
 	result.WriteString(start)
 	result.WriteString("Java")
