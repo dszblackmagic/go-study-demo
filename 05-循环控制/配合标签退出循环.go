@@ -11,6 +11,7 @@ func main() {
 		// 进行条件判断
 		if i == 6 {
 			// 标签在goto后面是必填的，但是它也可以用在break和continue的后面 效果相同，只不过非必填。
+			// 如果是在 break 和 continue中使用标签需要注意的是标签要求必须定义在对应的 for、switch 和 select 的代码块上。
 			goto End
 		}
 		fmt.Println("输出当前的内容为:", i)
