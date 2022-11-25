@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// 语法为 type (别名) 基本类型 或 type (别名) = 基本类型。不能自己想类型
+// 语法为 [type 别名 基本类型] 或 [type 别名 = 基本类型]不能自己想类型
 
 // NewInt 将NewInt定义为int类型
 type NewInt int
