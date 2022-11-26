@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+// 定义常量需要用到的关键字为 const
+// 常量定义后不可改变
 const (
 	a1 = 10
 	b1
