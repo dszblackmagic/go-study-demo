@@ -6,6 +6,7 @@
 <a href="https://github.com/dszblackmagic/go-study-demo"><img alt="author" src="https://img.shields.io/badge/IDE-GoLand-yellowgreen"/></a>
 <a href="https://blog.csdn.net/qq_41048567?type=blog"><img alt="author" src="https://img.shields.io/badge/CSDN-%E5%87%B3%E5%AD%90-red"/></a>
 </p>
+
 ## <font color="teal">项目介绍</font>
 
 `go-study-demo` 项目的初衷是为了能够记录在学习 `Go` 语言的过程的每个案例，方便有一定语言基础的童鞋们认识这个语言。
@@ -16,7 +17,9 @@
 
 `go-study-demo` 项目中的每个案例都尽可能的配合 `注释 + 代码` 的方式来解释代码的内容。
 
-并且欢迎各位在每个模块提交自己的完整练习案例，如果有好的案例我会合并进行对应的知识模块中，名称规范 `练习-[对应的练习案例名称].go`
+并且欢迎各位在每个模块提交自己的完整练习案例，如果有好的案例我会合并进行对应的知识模块中。
+
+名称规范： `练习-[对应的练习案例名称].go`
 
 
 
@@ -34,7 +37,6 @@
 - [x] 函数高级
 - [ ] 结构体
 - [ ] 接口
-- [ ] 
 - [ ] Go语言的泛型
 - [ ] IO读写
 - [ ] 并发之协程与通道
