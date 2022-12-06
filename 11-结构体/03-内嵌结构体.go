@@ -15,6 +15,7 @@ type B struct {
 }
 
 type Demo struct {
+	// 这种内嵌结构体我们也称之为匿名字段，类似于将 A、B 两个结构体的内容都继承在来 Demo 之中，也可以称之为组合
 	A
 	B
 }
